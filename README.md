@@ -242,7 +242,7 @@ button:hover {
 
    <div class="form-control">
         <label for="comments">Any comments or suggestions?</label>
-        <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea>
+        <textarea id="comments" name="comments" placeholder="Enteryourcommenthere..."> </textarea>
       </div>
 
    <button id="submit" type="submit">Submit</button>
