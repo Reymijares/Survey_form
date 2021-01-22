@@ -1,7 +1,7 @@
 # survey_form
 
 
-
+<link rel="import" href="/path/to/imports/stuff.html">
 <link rel="stylesheet" href="html/styles.css">
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
