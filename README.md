@@ -1,9 +1,8 @@
 # survey_form
 
 
-</head>
 
-<link rel="stylesheet" href="/html/styles.css">
+<link rel="stylesheet" href="html/styles.css">
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
@@ -115,7 +114,7 @@ button:hover {
   opacity: .9;
 }
 </style>
-
+<head>
 <body>
   <div class="container">
     <header>
