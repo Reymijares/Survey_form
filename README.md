@@ -2,7 +2,8 @@
 
 
 <link rel="import" href="/path/to/imports/stuff.html">
-<link rel="stylesheet" href="html/styles.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
 
 @import "@primer/css/core/index.scss";
 @import "@primer/css/product/index.scss";
