@@ -126,7 +126,7 @@ button:hover {
     <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
   </header>
 
-    <form id="survey-form">
+   <form id="survey-form">
       <div class="form-control">
         <label id="name-label" for="name">Name</label>
         <input id="name" type="text" name="name" placeholder="Enter your name" required>
@@ -153,8 +153,9 @@ button:hover {
       <input id="number" type="number" name="number" placeholder="Age" min="10" max="150">
     </div>
 
-      <div class="form-control">
-        <label for="dropdown">Which option best describes your current role?</label>
+  <div class="form-control">
+        
+  <label for="dropdown">Which option best describes your current role?</label>
         <select id="dropdown" name="role" required>
           <option value disabled selected>Select current role</option>
           <option value="student">Student</option>
@@ -162,7 +163,7 @@ button:hover {
           <option value="part-time">Part-time</option>
           <option value="other">Other</option>
         </select>
-      </div>
+     </div>
     <div class="form-control">
       <label for="dropdown">Which option best describes your current role?</label>
       <select id="dropdown" name="role" required>
@@ -173,9 +174,10 @@ button:hover {
         <option value="other">Other</option>
       </select>
     </div>
+    
 
-      <div class="form-control">
-        <p>Would you recommend freeCodeCamp to a fried?</p>
+  <div class="form-control">
+      <p>Would you recommend freeCodeCamp to a fried?</p>
         <label for="recommend-1"><input id="recommend-1" type="radio" name="recommend" value="definitely" checked>Definitely</label>
         <label for="recommend-2"><input id="recommend-2" type="radio" name="recommend" value="maybe">Maybe</label>
         <label for="recommend-3"><input id="recommend-3" type="radio" name="recommend" value="not-sure">Not sure</label>
@@ -187,7 +189,7 @@ button:hover {
       <label for="recommend-3"><input id="recommend-3" type="radio" name="recommend" value="not-sure">Not sure</label>
     </div>
 
-      <div class="form-control">
+  <div class="form-control">
         <label for="feature">What is your favorite feature of freeCodeCamp?</label>
         <select id="feature" name="feature">
           <option value disabled selected>Select an option</option>
@@ -208,7 +210,7 @@ button:hover {
       </select>
     </div>
 
-      <div class="form-control">
+ <div class="form-control">
         <p>What would you like to see improved? <span clss="small">(Check all that apply)</span></p>
         <label for="improve-1"><input id="improve-1" type="checkbox" name="improve" value="front-end">Front-end Project</label>
         <label for="improve-2"><input id="improve-2" type="checkbox" name="improve" value="back-end">Back-end Project</label>
@@ -223,12 +225,12 @@ button:hover {
         <label for="improve-11"><input id="improve-11" type="checkbox" name="improve" value="additional-courses">Additional Courses</label>
       </div>
 
-      <div class="form-control">
+   <div class="form-control">
         <label for="comments">Any comments or suggestions?</label>
         <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea>
       </div>
 
-      <button id="submit" type="submit">Submit</button>
+   <button id="submit" type="submit">Submit</button>
     </form>
   </div>
     <div class="form-control">
@@ -246,12 +248,12 @@ button:hover {
       <label for="improve-11"><input id="improve-11" type="checkbox" name="improve" value="additional-courses">Additional Courses</label>
     </div>
 
-    <div class="form-control">
+  <div class="form-control">
       <label for="comments">Any comments or suggestions?</label>
       <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea>
     </div>
 
-    <button id="submit" type="submit">Submit</button>
+   <button id="submit" type="submit">Submit</button>
   </form>
 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
