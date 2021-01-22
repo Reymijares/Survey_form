@@ -4,6 +4,10 @@
 <link rel="import" href="/path/to/imports/stuff.html">
 <link rel="stylesheet" href="html/styles.css">
 
+@import "@primer/css/core/index.scss";
+@import "@primer/css/product/index.scss";
+@import "@primer/css/marketing/index.scss";
+
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
