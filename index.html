@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Survey Form Project - for the freeCodeCamp Responsive Design Certificate.">
+  <link rel="icon" type="image/png" href="Images/favicon.ico">
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Join The Empire Today!</title>
+</head>
+
+<body>
+  <!-- freeCodeCamp test suite
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  -->
+  <header class="header">
+    <!-- Image added in CSS -->
+  </header>
+
+  <main>
+
+    <form action="submit" method="get" id="survey-form">
+      <div class="form-icon-div">
+        <i class="fa fa-empire fa-5x form-icon" aria-hidden="true"></i>
+      </div>
+      <p id="description" class="form-title">Please fill out the form below to receive more information about
+        <a href="http://starwars.wikia.com/wiki/Galactic_Empire" title="Galactic Empire Wiki" class="empire-wiki"
+          target="_blank">The Empire</a>.</p>
+
+      <label for="name" id="name-label" class="bold margin">*Name:</label>
+      <input id="name" type="text" placeholder="Enter your full name" required>
+
+      <label for="email" id="email-label" class="bold margin">*E-Mail:</label>
+      <input id="email" type="email" placeholder="Enter your primary email address" required>
+
+      <label for="number" id="number-label" class="bold margin">*Age:</label>
+      <input id="number" type="number" min="1" max="1000" placeholder="100" required>
+
+      <label for="dropdown" id="dropdown-label" class="bold margin">Species:</label>
+      <select id="dropdown" name="dropdown">
+        <option>Human</option>
+        <option>Rodian</option>
+        <option>Zabraks</option>
+        <option>Twi’leks</option>
+        <option>Other</option>
+      </select>
+
+      <fieldset class="lightsaber">
+        <legend class="radio-legend bold">Lightsaber Color:</legend>
+        <input type="radio" id="radio1" class="radio" name="radio" value="saber-color">
+        <label for="radio1" id="radio-option1" class="radio-label">Red</label>
+
+        <input type="radio" id="radio2" class="radio" name="radio" value="saber-color">
+        <label for="radio2" id="radio-option2" class="radio-label">Red</label>
+
+        <input type="radio" id="radio3" class="radio" name="radio" value="saber-color">
+        <label for="radio3" id="radio-option3" class="radio-label">Red</label>
+      </fieldset>
+
+      <fieldset class="dark">
+        <legend class="checkbox-legend bold">How Dark Are You?</legend>
+        <input type="checkbox" id="checkbox1" name="checkbox" value="dark" class="checkbox">
+        <label for="checkbox1" class="checkbox-label" id="check-option1">Dark</label>
+
+        <input type="checkbox" id="checkbox2" name="checkbox" value="mostly-dark" class="checkbox">
+        <label for="checkbox2" class="checkbox-label" id="check-option2">Mostly Dark</label>
+
+        <input type="checkbox" id="checkbox3" name="checkbox" value="kinda-dark" class="checkbox">
+        <label for="checkbox3" class="checkbox-label" id="check-option3">Kinda Dark</label>
+      </fieldset>
+
+      <label for="textarea" id="textarea-label" class="bold">Comments:</label>
+      <textarea id="textarea" rows="10" cols="20" placeholder="Comments, questions, concerns..."></textarea>
+
+      <button id="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <h1 id="title" class="footer-h1">Coded by Stephan Lamoureux for <a href="https://www.freecodecamp.org/slamoureux"
+        target="_blank">freeCodeCamp <i class="fa fa-free-code-camp"></i></a></h1>
+    <div class="my-links">
+      <a href="https://github.com/slamoureux/survey-form" target="_blank" class="footer-link" title="Github Repository">
+        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+      </a>
+      <a href="https://codepen.io/s-lamoureux/full/zpMqNM/" target="_blank" class="footer-link" title="Codepen Page">
+        <i class="fa fa-codepen fa-2x" aria-hidden="true"></i>
+      </a>
+      <a href="https://twitter.com/sa_lamoureux" target="_blank" class="footer-link" title="My Twitter Account">
+        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Main javascript -->
+  <script type="text/javascript" src='main.js'></script>
+
+</body>
+
+</html>
